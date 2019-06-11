@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+int div(int a, int b)
+{
+int div = a/b;
+return div;
+}
 int mult(int a, int b)
 {
 	int mult = a*b;
@@ -20,5 +25,6 @@ int main()
 	printf("Soma dos numeros %d\n", soma(3,4));
 	printf("A subtracao dos numeros : %d\n",sub(4,3));
 	printf("Multiplicacao dos numeros: %d\n", mult(4,3));
+	printf("Divisao dos numeros %d\n", div(4,3));
 	return 0;
 }
